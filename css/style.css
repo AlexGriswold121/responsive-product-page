@@ -34,3 +34,16 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#header{
+  display: flex;
+}
+
+.nav{
+  text-decoration: none;
+}
+
+footer{
+  font-size: var(--font-size-sm) ;
+  text-align: center;
+}

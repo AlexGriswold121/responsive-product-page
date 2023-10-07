@@ -36,16 +36,48 @@ body {
 img {
   display: block;
   max-width: 100%;
+  border-radius: 3%;
 }
 
 #header{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.wrapper{
-  max-width: 1200px;
-  margin: 0 auto
+nav ul{
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
 }
+
+nav ul li{
+ padding-left: 2em;
+ font-size: var(--font-size-lg);
+}
+
+nav ul li a:link,
+nav ul li a:visted {
+ text-decoration: none;
+ color:#222;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.grid #highlight {
+  grid-column: 1/4;
+}
+
+
+h2{
+  font-size: var(--font-size-xl);
+}
+
+
 
 footer{
   font-size: var(--font-size-sm) ;

@@ -29,8 +29,8 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0 ;
+  padding: auto;
+  background-color: aqua;
 }
 
 img {
@@ -128,7 +128,6 @@ nav ul li a:visited {
 }
 
 #review{
-  margin: 0 auto;
   padding-left: 8em;
   padding-right: 8em;
   padding-top: 2em;
@@ -178,7 +177,11 @@ footer{
   padding: 3em;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 80em) {
+
+  body{
+    align-items: center;
+  }
 
   .grid{
     grid-template-columns: 1fr 1fr;
@@ -188,7 +191,28 @@ footer{
     grid-column: 1 / 2;
   }
 
+  #feature{
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
 
+  .text{
+    margin-top: -1.5em;
+  }
+
+  .text h2{
+    font-size: var(--font-size-lg);
+    margin-bottom: -1em;
+  }
+
+  .text h3{
+    font-size: var(--font-size-md);
+  }
+
+  .text h4{
+    margin-top: -2em;
+  }
 
   #dough div{
     display: flex;
@@ -208,4 +232,5 @@ footer{
     gap: 1rem;
     padding: 2em;
   }
+
 }

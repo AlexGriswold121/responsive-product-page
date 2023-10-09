@@ -66,20 +66,22 @@ nav ul li a:visited {
  color:#222;
 }
 
-
-
-.grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
+#feature{
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 2em;
   border-top: 3px solid #f9f9f9;
 }
 
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
 .grid #highlight {
-  grid-column: 1/4;
+  grid-column: 1 / 4;
 }
 
 .text{
@@ -181,14 +183,12 @@ footer{
   .grid{
     grid-template-columns: 1fr 1fr;
   }
-
-  .grid #higlight{
-    grid-column: 1/2;
+  
+  .grid #highlight {
+    grid-column: 1 / 2;
   }
 
-  #feature > div{
-    display: flex;
-  }
+
 
   #dough div{
     display: flex;

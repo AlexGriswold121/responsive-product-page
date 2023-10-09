@@ -180,6 +180,7 @@ footer{
 @media (min-width: 80em) {
 
   body{
+    margin-left: auto;
     align-items: center;
   }
 
@@ -222,9 +223,16 @@ footer{
     padding-bottom: 4em;
   }
 
+  #review{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   #review ul{
     display: flex;
     gap: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
   }
 
   .trylist{

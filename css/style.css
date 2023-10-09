@@ -61,7 +61,7 @@ nav ul li{
 }
 
 nav ul li a:link,
-nav ul li a:visted {
+nav ul li a:visited {
  text-decoration: none;
  color:#222;
 }
@@ -86,18 +86,22 @@ nav ul li a:visted {
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 2em;
+  font-size: var(--font-size-base);
 }
 
 .text h2{
   font-size: var(--font-size-xl);
 }
-.text h4{
+.text h3{
   font-size: var(--font-size-lg);
+}
+.text h4{
+  font-size: var(--font-size-sm);
 }
 
 .button{
   text-decoration: none;
-  font-style: var(--font-size-md);
+  font-size: var(--font-size-base);
   background-color: #222;
   color: #fff;
   border: none;
@@ -111,7 +115,9 @@ nav ul li a:visted {
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 1em;
+  padding-bottom: 1em;
   border-top: 3px solid #f9f9f9;
+  font-size: var(--font-size-base);
 }
 
 #dough h3{
@@ -170,12 +176,10 @@ footer{
   padding: 3em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50em) {
 
   .grid{
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    padding-top: 2em;
   }
 
   .grid #higlight{

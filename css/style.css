@@ -30,7 +30,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0 auto;
+  padding: 0 ;
 }
 
 img {
@@ -176,7 +176,6 @@ footer{
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     padding-top: 2em;
-    border-top: 3px solid #f9f9f9;
   }
 
   .grid #higlight{
@@ -187,5 +186,22 @@ footer{
     display: flex;
   }
 
-  
+  #dough div{
+    display: flex;
+    gap: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 4em;
+  }
+
+  #review ul{
+    display: flex;
+    gap: 1em;
+  }
+
+  .trylist{
+    display: flex;
+    gap: 1rem;
+    padding: 2em;
+  }
 }

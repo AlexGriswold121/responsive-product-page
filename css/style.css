@@ -30,19 +30,22 @@ html {
 
 body {
   margin: 0;
-  padding: 0 2em;
+  padding: 0 auto;
 }
 
 img {
   display: block;
   max-width: 100%;
-  border-radius: 3%;
+  border-radius: 3%
 }
 
 #header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 3em;
 }
 
 nav ul{
@@ -54,6 +57,7 @@ flex-wrap: wrap;
 nav ul li{
  padding-left: 2em;
  font-size: var(--font-size-lg);
+ text-decoration: none;
 }
 
 nav ul li a:link,
@@ -66,20 +70,65 @@ nav ul li a:visted {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .grid #highlight {
   grid-column: 1/4;
 }
 
+.text{
+  padding-left: 2em;
+  padding-right: 2em;
+}
 
-h2{
+.text h2{
   font-size: var(--font-size-xl);
+}
+.text h4{
+  font-size: var(--font-size-lg);
+}
+
+.button{
+  text-decoration: none;
+  font-style: var(--font-size-md);
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: .5em;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#dough{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#dough h3{
+  text-align: center;
+}
+
+#review{
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #222;
+  color: #fff;
+}
+
+#review h3{
+  text-align: center;
+}
+
+#review ul li{
+  list-style-type: none;
 }
 
 
 
 footer{
-  font-size: var(--font-size-sm) ;
+  font-size: var(--font-size-sm);
   text-align: center;
 }

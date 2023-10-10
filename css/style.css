@@ -30,7 +30,7 @@ html {
 
 body {
   padding: auto;
-  background-color: aqua;
+  background-color: #fff;
 }
 
 img {
@@ -177,7 +177,7 @@ footer{
   padding: 3em;
 }
 
-@media (min-width: 80em) {
+@media (min-width: 75em) {
 
   body{
     margin-left: auto;

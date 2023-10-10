@@ -179,6 +179,7 @@ footer{
 @media (min-width: 75em) {
 
   body{
+    margin-right: 0;
     margin-left: auto;
     align-items: center;
   }
